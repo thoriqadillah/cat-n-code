@@ -12,10 +12,5 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: 'https://thoriqadillah.github.io',
   base: '/cat-n-code/',
-  redirects: {
-    '/': 'https://thoriqadillah.github.io',
-    '/blogs': 'https://thoriqadillah.github.io/blogs',
-    '/projects': 'https://thoriqadillah.github.io/projects',
-  },
   integrations: [tailwind(), mdx(), sitemap()]
 });
